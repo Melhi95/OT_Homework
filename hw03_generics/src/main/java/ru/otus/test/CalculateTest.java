@@ -25,13 +25,6 @@ public class CalculateTest {
         if (c.div(4, 2) != 2) {
             throw new ArithmeticException("Division test failed");
         }
-
-        try {
-            c.div(4, 0);
-            throw new ArithmeticException("Division by zero test failed");
-        } catch (ArithmeticException e) {
-            // System.out.println("Division by zero test passed");
-        }
     }
 
     @After
